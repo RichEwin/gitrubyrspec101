@@ -1,3 +1,5 @@
-def likes(name)
-    'no one likes this'
+def likes(array)
+    if array.empty?
+        "no one likes this"
+    end 
 end 
