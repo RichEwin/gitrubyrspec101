@@ -7,6 +7,8 @@ def likes(array)
         "#{array[0]} and #{array[1]} like this"
     elsif array.length == 3
         "#{array[0]}, #{array[1]} and #{array[2]} like this"
+    elsif array.length > 3 
+        "#{array[0]}, #{array[1]} and #{array.length-2} others like this"    
     end 
 end 
 
