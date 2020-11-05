@@ -1,0 +1,3 @@
+def likes(name)
+    
+end 
